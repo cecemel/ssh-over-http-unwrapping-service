@@ -10,3 +10,11 @@ See [ssh-over-http-wrapping-service](https://github.com/cecemel/ssh-over-http-wr
 
 ## Usage
 See [ssh-over-http-wrapping-service](https://github.com/cecemel/ssh-over-http-wrapping-service)
+
+## Environment variables
+- `INCOMING_WS_PORT`:
+  - Specifies the network port on which the `wstunnel` server will listen for incoming WebSocket connections.
+  - Default: `443`
+- `INCOMING_WS_TLS_ENABLED`
+  - Specifies whether the server should use TLS encryption for secure connections (`wss`) or not (`ws`).
+  - Default: `true`
