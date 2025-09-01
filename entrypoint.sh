@@ -1,6 +1,5 @@
 #!/bin/sh
 
-# Set the default protocol and port if not provided
 if [ -z "$INCOMING_WS_PORT" ]; then
     INCOMING_WS_PORT=443
     echo "Using default port: $INCOMING_WS_PORT"
